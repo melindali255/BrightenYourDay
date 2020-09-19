@@ -2,8 +2,9 @@
 
 Boring website? Introduce new color and hard to read fonts with our Chrome extension :)
 
-Made for SillyHacks 2020
+Made for SillyHacks 2020 with Jamilla Situ
 
 # References
-CHEMISTR Font: https://cooltext.com/Download-Font-Chemistry
-Times New Bastard Font: https://github.com/weiweihuanghuang/Times-New-Bastard
+- CHEMISTR Font: https://cooltext.com/Download-Font-Chemistry
+- Times New Bastard Font: https://github.com/weiweihuanghuang/Times-New-Bastard
+- Sun Icon from IconFinder
