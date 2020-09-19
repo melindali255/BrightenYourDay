@@ -1,0 +1,39 @@
+{
+  "name": "Brighten Your Day!",
+  "version": "1.0",
+  "description": "Change the website's look in a brand new way!",
+  "permissions": ["activeTab", "declarativeContent", "fontSettings", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery-3.5.1.min", "content.js"],
+      "css": ["main.css"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_title": "Pop-up",
+    "default_icon": {
+      "16": "images/sun.png",
+      "32": "images/sun.png",
+      "48": "images/sun.png",
+      "128": "images/sun.png"
+    }
+  },
+  "icons": {
+    "16": "images/sun.png",
+    "32": "images/sun.png",
+    "48": "images/sun.png",
+    "128": "images/sun.png"
+  },
+  "options_page": "options.html",
+  "web_accessible_resources": [
+    "fonts/TimesNewBastard-RegularWeb.woff",
+    "fonts/CHEMISTR.woff"
+  ],
+  "manifest_version": 2
+}
